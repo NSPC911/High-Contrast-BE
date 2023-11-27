@@ -1,8 +1,8 @@
 {
  "format_version": 2,
  "header": {
-  "description": "A port of by NSPG911",
-  "name": "High Contrast",
+  "description": "Ported by NSPG911 with courtesy of Simplexity Development",
+  "name": "High Contrast BE",
   "uuid": "1c09728b-39b3-4c0c-a577-bdcd9d2acdff",
   "version": [
    0,

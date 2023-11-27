@@ -1,0 +1,35 @@
+{
+ "format_version": 2,
+ "header": {
+  "description": "A port of by NSPG911",
+  "name": "High Contrast",
+  "uuid": "1c09728b-39b3-4c0c-a577-bdcd9d2acdff",
+  "version": [
+   0,
+   1,
+   0
+  ],
+  "min_engine_version": [
+   1,
+   19,
+   60
+  ]
+ },
+ "modules": [
+  {
+   "description": "",
+   "type": "resources",
+   "uuid": "107136c8-0b83-4ed0-9866-54cd8bae4da1",
+   "version": [
+    0,
+    1,
+    0
+   ]
+  }
+ ],
+ "metadata": {
+  "authors": ["NSPG911"],
+  "license": "Just, dont steal or profit from this. It took me so long to finish this. Feel free to create posts about it, but the download link must be my linkvertise link.",
+  "url": "https://link-target.net/615634/high-contrast-extended" 
+  }
+}

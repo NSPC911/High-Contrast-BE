@@ -1,0 +1,89 @@
+{
+  "namespace": "auicore-configsource",
+  "element": {
+    "type": "panel",
+    "$key|default": "distorted_fatee",
+    "$ver|default": "2.0",
+    "$primary_color": [
+      0.171,
+      0.5,
+      0.441
+    ],
+    "$setting_button_icon_color": [
+      1,
+      1,
+      1
+    ],
+    "$oled_mode": true,
+    "$allow_bottom_bar_customization": false,
+    "$bottom_bar_background_alpha": 0.75,
+    "$bottom_bar_background_color": [
+      0,
+      0,
+      0
+    ],
+    "$bottom_bar_font_color": "$f_color_format",
+    "$bottom_bar_font_type": "kazesawa",
+    "$slider_icon_color": [
+      0,
+      0,
+      0
+    ],
+    "$slider_color": [
+      0.341,
+      1,
+      0.882
+    ],
+    "$slider_hover_color": [
+      0.722,
+      0.545,
+      0.973
+    ],
+    "$slider_background_color": [
+      0,
+      0,
+      0
+    ],
+    "$slider_background_hover_color": [
+      0.722,
+      0.545,
+      0.973
+    ],
+    "$gradient_renderer": false,
+    "$background_menu_color": [
+      0,
+      0,
+      0,
+      0.75
+    ],
+    "$background_standard_color_top": [
+      0,
+      0,
+      0,
+      0.75
+    ],
+    "$background_standard_color_bottom": [
+      0,
+      0,
+      0,
+      0.75
+    ],
+    "$toggle_icon_color": [
+      1,
+      1,
+      1
+    ],
+    "$toggle_background_color": [
+      1,
+      1,
+      1
+    ],
+    "$background_renderer": false,
+    "$configname": "Default",
+    "$Testvalue": true,
+    "$show_changelog": true,
+    "$show_warning_notification": false,
+    "$legacy_ui_layout": false,
+    "$main_menu_background": false
+  }
+}

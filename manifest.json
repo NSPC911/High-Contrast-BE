@@ -3,7 +3,7 @@
  "header": {
   "description": "Ported by NSPG911 with courtesy of Simplexity Development",
   "name": "High Contrast BE",
-  "uuid": "1c09728b-39b3-4c0c-a577-bdcd9d2acdff",
+  "uuid": "1161c041-be1a-003b-a493-f85c2a9d5dc3",
   "version": [
    0,
    1,
@@ -19,7 +19,7 @@
   {
    "description": "",
    "type": "resources",
-   "uuid": "107136c8-0b83-4ed0-9866-54cd8bae4da1",
+   "uuid": "1161c041-be1a-003b-b6e3-aef42eec3132",
    "version": [
     0,
     1,

@@ -1,35 +1,35 @@
 {
- "format_version": 2,
- "header": {
-  "description": "Ported by NSPG911 with courtesy of Simplexity Development",
-  "name": "High Contrast BE",
-  "uuid": "1161c041-be1a-003b-a493-f85c2a9d5dc3",
-  "version": [
-   0,
-   1,
-   0
-  ],
-  "min_engine_version": [
-   1,
-   19,
-   60
-  ]
- },
- "modules": [
-  {
-   "description": "",
-   "type": "resources",
-   "uuid": "1161c041-be1a-003b-b6e3-aef42eec3132",
-   "version": [
-    0,
-    3,
-    0
-   ]
-  }
- ],
- "metadata": {
-  "authors": ["NSPG911"],
-  "license": "You are allowed to share this repository to anyone else, and also post it on other platforms, provided that you contact me on any platform (X: @Nspg9, Discord: nspg911)",
-  "url": "https://github.com/NSPC911/High-Contrast-BE" 
-  }
+    "format_version": 2,
+    "header": {
+        "name": "High Contrast BE",
+        "description": "Ported by NSPG911 with courtesy of Simplexity Development",
+        "uuid": "1161c041-a19a-004a-a310-4441a8600ea8",
+        "version": [0,4,2]
+        "min_engine_version": [1,19,60],
+    },
+    "modules": [
+        {
+            "description": "",
+            "type": "resources",
+            "uuid": "1161c041-al9a-004a-9b90-c74841448eea",
+            "version": [0,4,2]
+        }
+    ],
+    "subpacks": [
+        {
+            "folder_name": "glyphs",
+            "memory_tier": 0,
+            "name": "Custom §bGlyphs§r = §aEnabled§r"
+        },
+        {
+            "folder_name": "noglyph",
+            "memory_tier": 0,
+            "name": "Custom §bGlyphs§r = §cDisabled§r"
+        }
+    ],
+    "metadata": {
+        "authors": ["NSPG911"],
+        "license": "You are allowed to share this repository to anyone else, and also post it on other platforms, provided that you contact me on any platform (X: @Nspg9, Discord: nspg911)",
+        "url": "https://github.com/NSPC911/High-Contrast-BE"
+    }
 }

@@ -4,8 +4,8 @@
         "name": "High Contrast BE",
         "description": "Ported by NSPG911 with courtesy of Simplexity Development",
         "uuid": "1161c041-a19a-004a-a310-4441a8600ea8",
-        "version": [0,4,2]
-        "min_engine_version": [1,19,60],
+        "version": [0,4,2],
+        "min_engine_version": [1,19,60]
     },
     "modules": [
         {

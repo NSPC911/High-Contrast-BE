@@ -1,1 +1,24 @@
-{"custom_panorama":{"$use_customizable_panorama":false,"$panorama_texture":"textures/ui/White","$use_bilinear_effect":false,"$use_animated_panorama_uv":false,"$uv_frame_size":[740,416],"$start_uv_frame":"@tyel_custom_theme.pano_uv_1","$namespace_id":"tyel_custom_theme","$anim_control_prefix":"pano_uv","$frame_duration":0.04,"$total_frames":23,"$custom_panorama_child_controls":[]},"theme_metadata":{"$name":"The Tyel UI - High Contrast","$author":"NSPG911","$attribution":"Compatability for The Tyel UI. Made with love by NSPG911.","$metadata_info":"","$button_icon_texture":"textures/ui/tyel_about_icon"},"pano_uv_base@tyel_theme.uv_anim_base":{},"namespace":"tyel_custom_theme"}
+{
+  "custom_panorama": {
+    "$use_customizable_panorama": false,
+    "$panorama_texture": "textures/ui/White",
+    "$use_bilinear_effect": false,
+    "$use_animated_panorama_uv": false,
+    "$uv_frame_size": [740, 416],
+    "$start_uv_frame": "@tyel_custom_theme.pano_uv_1",
+    "$namespace_id": "tyel_custom_theme",
+    "$anim_control_prefix": "pano_uv",
+    "$frame_duration": 0.04,
+    "$total_frames": 23,
+    "$custom_panorama_child_controls": []
+  },
+  "theme_metadata": {
+    "$name": "The Tyel UI - High Contrast",
+    "$author": "NSPG911",
+    "$attribution": "Compatability for The Tyel UI. Made with love by NSPG911.",
+    "$metadata_info": "",
+    "$button_icon_texture": "textures/ui/tyel_about_icon"
+  },
+  "pano_uv_base@tyel_theme.uv_anim_base": {},
+  "namespace": "tyel_custom_theme"
+}

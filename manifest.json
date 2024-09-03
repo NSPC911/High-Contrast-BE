@@ -3,7 +3,7 @@
   "header": {
     "name": "High Contrast BE",
     "description": "Ported by NSPG911 with courtesy of Simplexity Development",
-    "uuid": "1161c041-a19a-004a-a310-4441a8600ea8",
+    "uuid": "ea586966-69ec-11ef-b864-0242ac120002",
     "version": [0, 4, 2],
     "min_engine_version": [1, 19, 60]
   },
@@ -11,20 +11,8 @@
     {
       "description": "",
       "type": "resources",
-      "uuid": "1161c041-a19a-004a-9b90-c74841448eea",
+      "uuid": "ea586c7c-69ec-11ef-b864-0242ac120002",
       "version": [0, 4, 2]
-    }
-  ],
-  "subpacks": [
-    {
-      "folder_name": "glyphs",
-      "memory_tier": 0,
-      "name": "Custom §bGlyphs§r = §aEnabled§r"
-    },
-    {
-      "folder_name": "noglyph",
-      "memory_tier": 0,
-      "name": "Custom §bGlyphs§r = §cDisabled§r"
     }
   ],
   "metadata": {

@@ -1,0 +1,21 @@
+name: Archive Repository
+
+on:
+  push:
+
+jobs:
+  archive:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+
+    - name: Create archive
+      run: zip -r pack.mcpack .
+
+    - name: Upload artifact
+      uses: actions/upload-artifact@v4
+      with:
+        name: repository-archive
+        path: pack.mcpack

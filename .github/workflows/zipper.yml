@@ -18,7 +18,23 @@ jobs:
       with:
         prettier_options: --write **/*.json
         same_commit: true
-      
+    
+    - name: Install jq
+      run: sudo apt-get install jq
+
+    - name: Generate UUIDs
+      id: generate_uuids
+      run: |
+        HEADER_UUID=$(uuidgen)
+        MODULE_UUID=$(uuidgen)
+        echo "HEADER_UUID=$HEADER_UUID" >> $GITHUB_ENV
+        echo "MODULE_UUID=$MODULE_UUID" >> $GITHUB_ENV
+
+    - name: Update manifest.json
+      run: |
+        jq --arg header_uuid "$HEADER_UUID" --arg module_uuid "$MODULE_UUID" \
+        '.header.uuid = $header_uuid | .modules[0].uuid = $module_uuid' manifest.json > tmp.json && mv tmp.json manifest.json
+    
     - name: Create archive
       run: zip -r pack.mcpack . -x ".git/*" ".github/*"
 
@@ -27,3 +43,17 @@ jobs:
       with:
         name: repository-archive
         path: pack.mcpack
+    
+    - name: Notify Discord
+      uses: sarisia/actions-status-discord@v1.13.0
+      if: always()
+      continue-on-error: true
+      with:
+        webhook: ${{ secrets.LOG_HOOK }}
+        title: Zip successful!
+        status: ${{ job.status }}
+        description: |
+          Commit `${{ github.sha }}` by ${{ github.actor }}
+          Click [here](https://nightly.link/NSPC911/High-Contrast-BE/actions/runs/${{ github.run_id }}) to download!
+        avatar_url: "https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png"
+        username: "NSPC911/High-Contrast-BE"

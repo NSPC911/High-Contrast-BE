@@ -5,10 +5,10 @@
   "$dark_border_locked_color": [0.0, 0.0, 0.0],
   "$dark_border_toggle_default_color": [0.0, 0.0, 0.0],
 
-  "$dark_button_locked_text_color": [0.4, 0.4, 0.4],
-  "$dark_button_secondary_locked_text_color": [0.4, 0.4, 0.4],
+  "$dark_button_locked_text_color": [0.5, 0.5, 0.5],
+  "$dark_button_secondary_locked_text_color": [0.5, 0.5, 0.5],
 
-  "$dark_glyph_locked_color": [0.4, 0.4, 0.4],
+  "$dark_glyph_locked_color": [0.5, 0.5, 0.5],
 
   "$dressing_room_background_alpha": 0.7,
   "$dressing_room_color_title": [1.0, 1.0, 1.0],
@@ -27,10 +27,10 @@
   "$light_border_toggle_default_color": [0.0, 0.0, 0.0],
 
   "$light_button_default_text_color": [1.0, 1.0, 1.0],
-  "$light_button_locked_text_color": [0.4, 0.4, 0.4],
+  "$light_button_locked_text_color": [0.5, 0.5, 0.5],
 
   "$light_glyph_default_color": [1.0, 1.0, 1.0],
-  "$light_glyph_locked_color": [0.4, 0.4, 0.4],
+  "$light_glyph_locked_color": [0.5, 0.5, 0.5],
 
   "$light_toggle_checked_default_text_color": [1.0, 1.0, 1.0],
   "$light_toggle_default_text_color": [1.0, 1.0, 1.0],
@@ -65,8 +65,8 @@
 
   "$title_text_color": [1.0, 1.0, 1.0],
 
-  "$trade_lock_color": [0.4, 0.4, 0.4],
-  "$trade_tier_name_locked_color": [0.4, 0.4, 0.4],
+  "$trade_lock_color": [0.5, 0.5, 0.5],
+  "$trade_tier_name_locked_color": [0.5, 0.5, 0.5],
 
   // Tyel Theme
   "$tyel_oreui_design:common_title_button_icon_color": [1.0, 1.0, 1.0],

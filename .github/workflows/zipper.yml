@@ -10,7 +10,15 @@ jobs:
     steps:
     - name: Checkout code
       uses: actions/checkout@v4
-
+      with:
+        fetch-depth: 0
+    
+    - name: Prettify code
+      uses: creyD/prettier_action@v4.3
+      with:
+        prettier_options: --write **/*.json
+        same_commit: true
+      
     - name: Create archive
       run: zip -r pack.mcpack . -x ".git/*" ".github/*"
 

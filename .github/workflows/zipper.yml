@@ -12,13 +12,13 @@ jobs:
       uses: actions/checkout@v4
       with:
         fetch-depth: 0
-    
+
     - name: Prettify code
       uses: creyD/prettier_action@v4.3
       with:
         prettier_options: --write **/*.json
         same_commit: true
-    
+
     - name: Install jq
       run: sudo apt-get install jq
 
@@ -34,7 +34,7 @@ jobs:
       run: |
         jq --arg header_uuid "$HEADER_UUID" --arg module_uuid "$MODULE_UUID" \
         '.header.uuid = $header_uuid | .modules[0].uuid = $module_uuid' manifest.json > tmp.json && mv tmp.json manifest.json
-    
+
     - name: Create archive
       run: zip -r pack.mcpack . -x ".git/*" ".github/*"
 
@@ -43,7 +43,7 @@ jobs:
       with:
         name: repository-archive
         path: pack.mcpack
-    
+
     - name: Notify Discord
       uses: sarisia/actions-status-discord@v1.13.0
       if: always()
@@ -51,7 +51,8 @@ jobs:
       with:
         webhook: ${{ secrets.LOG_HOOK }}
         title: Zip successful!
-        status: ${{ job.status }}
+        nodetail: true
+        notimestamp: true
         description: |
           Commit `${{ github.sha }}` by ${{ github.actor }}
           Click [here](https://nightly.link/NSPC911/High-Contrast-BE/actions/runs/${{ github.run_id }}) to download!

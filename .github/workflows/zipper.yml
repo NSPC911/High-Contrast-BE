@@ -53,10 +53,7 @@ jobs:
       with:
         webhook: ${{ secrets.LOG_HOOK }}
         title: Zip successful!
-        nodetail: true
         notimestamp: true
         description: |
           Commit `${{ github.sha }}` by ${{ github.actor }}
           Click [here](https://nightly.link/NSPC911/High-Contrast-BE/actions/runs/${{ github.run_id }}) to download!
-        avatar_url: "https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png"
-        username: "NSPC911/High-Contrast-BE"
